@@ -8,7 +8,7 @@ const projects = [
     description:
       "A personal developer portfolio showcasing skills, experience, and projects using Next.js, Tailwind, and shadcn/ui.",
     stack: ["Next.js", "Tailwind CSS", "shadcn/ui"],
-    github: "https://github.com/ifeelgarv/portfolio",
+    github: "https://github.com/JoysonAJ/my-portfolio",
     live: "https://your-portfolio.vercel.app",
     status: "on-going",
   },
