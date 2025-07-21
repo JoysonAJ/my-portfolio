@@ -8,15 +8,15 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="min-h-screen flex flex-col lg:flex-row items-center justify-between gap-12 lg:gap-16 px-4 sm:px-6 lg:px-8 pt-24"
+     className="flex flex-col lg:flex-row items-center justify-between gap-12 lg:gap-16 px-4 sm:px-6 lg:px-8 pt-20 pb-16 lg:pt-24 lg:pb-0"
     >
       {/* Left content */}
       <div className="lg:w-7/12 text-center lg:text-left">
         <div className="inline-block px-4 py-2 bg-muted rounded-full text-sm font-medium text-muted-foreground mb-6">
-          Developer & Designer
+          Software Engineer
         </div>
 
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6">
+        <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6">
           <span className="inline-block mr-2">Hey, I&apos;m</span>
           <span className="relative inline-flex">
             <AnimatedName name="Antony Joyson" />
@@ -24,7 +24,7 @@ export default function Hero() {
           </span>
         </h1>
 
-        <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-xl mx-auto lg:mx-0 mb-10 px-10 ">
+        <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-xl mx-auto lg:mx-0 mb-10 text-left ">
           I am a software developer with{" "}
           <span className="font-semibold text-foreground">
             {" "}
@@ -65,16 +65,13 @@ export default function Hero() {
         <Social_Icons />
       </div>
 
-      {/* Right Image */}
-      <div className="relative lg:w-5/12">
-        <div className="absolute -top-6 -left-6 w-24 h-24 bg-yellow-200 rounded-full blur-3xl opacity-80" />
-        <div className="absolute -bottom-10 -right-6 w-28 h-28 bg-blue-200 rounded-full blur-2xl opacity-60" />
-
+      {/* Right Image - Only visible on large screens */}
+      <div className="hidden lg:block lg:w-5/12">
         <div className="relative z-10 bg-gradient-to-br from-muted to-background p-2 rounded-2xl shadow-xl">
-          <div className="relative overflow-hidden rounded-xl aspect-[3/4] max-w-sm mx-auto shadow-inner">
+          <div className="relative w-full max-w-sm mx-auto rounded-xl overflow-hidden shadow-inner aspect-[3/4]">
             <Image
-              src="/Demon.jpeg"
-              alt="Gaurav Singh"
+              src="/assets/my.jpg"
+              alt="Antony Joyson"
               fill
               className="object-cover"
               priority
