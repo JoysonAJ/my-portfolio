@@ -56,13 +56,13 @@ export default function Header() {
           ))}
 
           {/* Theme Toggle */}
-          <button
+          {/* <button
             onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
             className={cn(buttonVariants({ variant: "ghost", size: "icon" }))}
             aria-label="Toggle Theme"
           >
             {theme === "dark" ? <Sun size={18} /> : <Moon size={18} />}
-          </button>
+          </button> */}
         </nav>
 
         {/* Mobile Menu Button */}
@@ -90,12 +90,12 @@ export default function Header() {
               </a>
             ))}
 
-            <button
+            {/* <button
               onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
               className={cn(buttonVariants({ variant: "ghost", size: "sm" }))}
             >
               {theme === "dark" ? "Light Mode" : "Dark Mode"}
-            </button>
+            </button> */}
           </nav>
         </div>
       )}

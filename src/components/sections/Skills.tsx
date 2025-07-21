@@ -18,7 +18,7 @@ const skills = {
 
 export default function Skills() {
   return (
-    <section className="container mx-auto px-4 max-w-6xl py-16">
+    <section className="container mx-auto px-4 max-w-6xl " id="skills">
       <div className="text-center mb-12">
         <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-gray-800 to-gray-900 bg-clip-text text-transparent">
           Skills & Tools
