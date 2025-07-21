@@ -30,7 +30,7 @@ const contacts = [
 export default function Contact() {
 
   return (
-    <section className="container mx-auto px-4 max-w-6xl pt-16 pb-10">
+    <section className="container mx-auto px-4 max-w-6xl pt-16 pb-10" id='contact'>
       <div className="text-center mb-16">
         <div className="inline-block px-4 py-1.5 mb-4 bg-gradient-to-r from-blue-50 to-purple-50 rounded-full">
           <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent font-medium">
