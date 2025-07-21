@@ -1,5 +1,5 @@
 import Social_Icons from "@/components/shared/social";
-import { Button } from "@/components/ui/button";
+// import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import React from "react";
 import AnimatedName from "./AnimatedName";
@@ -25,7 +25,7 @@ export default function Hero() {
         </h1>
 
         <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-xl mx-auto lg:mx-0 mb-10 text-left ">
-          I am a software developer with{" "}
+          I am a software Engineer with{" "}
           <span className="font-semibold text-foreground">
             {" "}
             2 years of experience in development
